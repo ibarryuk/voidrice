@@ -8,11 +8,11 @@
 # The b key on the bottom row (hides the bar in either case)
 
 # Basic binds
-super + Return
+alt + Return
 	$TERMINAL
 super + shift + q
 	kill -9 `xdotool getwindowfocus getwindowpid`
-super + d
+alt + d
 	dmenu_run
 super + r
 	$TERMINAL -e $FILE
